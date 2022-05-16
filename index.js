@@ -39,7 +39,7 @@ app.post("/products", (req, res) => {
       res.status(200).json(product);
     })
     .catch((err) => {
-      res.status(422).json(" can't create product");
+      res.status(422).json(" can't create data");
     });
 });
 
